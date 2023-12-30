@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Addo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Abhaya Libre' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body bgcolor="#cfd9cb">
+    <div class="loader">
+        <div></div>
+    </div>
+    <div class="content">
+        <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><img src="assets/Logo.jpeg" ></label>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="screens/about.html">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+        </nav>
+        
+        <br><br>
+        <cont>
+        <img src="assets/addoLogo.png" border="2">
+        <br>
+        <h3 style="text-align:center">A simple way to keep track of your spending,  view your current balance and your latest 
+            transactions since your last statement.</h3>
+            <p>
+                <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b>
+                <u>Suspendisse eget purus gravida, malesuada mauris eu,</u> 
+                <em>facilisis nunc. Vivamus congue tincidunt feugiat. Proin</em>
+                <strong>sollicitudin odio mauris, a vestibulum nulla auctor ut. 
+                </strong>Nullam vel venenatis felis. Donec sodales rhoncus 
+                laoreet. Donec at gravida lacus. Pellentesque habitant 
+                <hr>
+                <a href="https://www.youtube.com/" target="_blank">morbi tristique senectus et netus et malesuada fames ac 
+                </a>turpis egestas. Maecenas pharetra tristique arcu, mattis 
+                rhoncus diam tempus id. Ut magna eros, fringilla ac 
+                neque quis, viverra faucibus odio. In a euismod eros. 
+                Sed molestie ut tellus quis venenatis. Quisque feugiat, 
+                est a congue commodo, nibh mauris feugiat arcu, et 
+                malesuada libero tortor vitae elit. Pellentesque sed 
+                eros quam. Donec eros nisi, lacinia nec sapien porttitor, 
+                ultricies sagittis nulla. Integer vel pulvinar ligula
+            </p>
+            <br>
+            <p>
+                Fusce tempor finibus arcu, in finibus tellus scelerisque 
+                id. Mauris ut molestie nulla. Ut quis ligula nec purus 
+                congue venenatis. Nunc et odio erat. Mauris dolor magna, 
+                varius sed consectetur nec, tincidunt a libero. Duis 
+                imperdiet sit amet justo ut ornare. Donec a ligula 
+                consectetur, ullamcorper nunc a, tincidunt diam. Nulla 
+                condimentum semper leo nec lobortis. Mauris ut neque 
+                consequat, ornare justo ac, sagittis sem. Donec iaculis 
+                urna quis neque vestibulum, nec pellentesque nisi mattis.
+                Maecenas accumsan massa est, id tempus arcu molestie sit 
+                amet. Maecenas scelerisque, urna quis euismod interdum, 
+                mauris odio consequat arcu, lacinia volutpat metus mauris 
+                ac diam. Nam non efficitur nulla. Etiam tempus ornare 
+                lacus eget iaculis. Morbi porttitor risus sed enim lacinia, 
+                quis rutrum sapien faucibus.
+            </p>
+            <br><br>
+            
+            <ul>
+                <li>Investing
+                    <ul>
+                        <li>20-30-50</li>
+                        <li>>16</li>
+                    </ul>
+                </li>
+                <li>Budgeting</li>
+                <li>Efficient Saving</li>
+                <li>Interest</li>
+                <li>Pension</li>
+            </ul>
+            <table border="10" cellpadding="10" cellspacing="0" bordercolor="#a0b29e">
+                <tr>
+                    <th></th>
+                    <th>Month</th>
+                    <th>Rent</th>
+                    <th colspan="2">Utilities</th>
+                    <th>Groceries</th>
+                    <th>Eating out</th>
+                    <th>Entertainment</th>
+                </tr>
+                <tr>
+                    <td rowspan="3">Fall</td>
+                    <td>August</td>
+                    <td>£1500</td>
+                    <td colspan="2">£500</td>
+                    <td>£250</td>
+                    <td>£100</td>
+                    <td>£50</td>
+                </tr>
+                <tr>
+                    <td>June</td>
+                    <td>£1500</td>
+                    <td colspan="2">£500</td>
+                    <td>£250</td>
+                    <td>£100</td>
+                    <td>£50</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>£1500</td>
+                    <td colspan="2">£500</td>
+                    <td>£250</td>
+                    <td>£100</td>
+                    <td>£50</td>
+                </tr>
+            </table>
+        </cont>
+    </div>
+    <script>
+        $(window).on('load',function(){
+            $(".loader").fadeOut(3000);
+            $(".content").fadeIn(3000);
+        });
+    </script>
+  </body>
+</html>
